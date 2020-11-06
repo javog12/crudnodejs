@@ -1,0 +1,25 @@
+{
+  "name": "crudnodejs",
+  "version": "1.0.0",
+  "description": "Deploying an app using nodejs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src",
+    "dev": "nodemon src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javog12/crudnodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/javog12/crudnodejs/issues"
+  },
+  "homepage": "https://github.com/javog12/crudnodejs#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
