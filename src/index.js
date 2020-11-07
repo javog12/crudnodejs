@@ -3,15 +3,13 @@ const app = express();
 const path = require('path');
 
 //settings
-app.set('port',4000);
-
+app.set('port',4000); // definicion de puerto
+app.set('views',path.join(__dirname,'views')); // definicion de ruta de las vistas
+app.set('view engine','ejs'); // definicion de motor de plantilla ejs
 // middleware
+
 // routes
-
-app.get('/',(req,res) => {
-	res.sendFile(path.join(__dirname,'views/index.html'));
-});
-
+app.use(require('./routes/index'));
 // static files
 // listening the server
 
